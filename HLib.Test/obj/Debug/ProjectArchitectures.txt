@@ -1,0 +1,4 @@
+C:\Users\彼岸\Documents\Visual Studio 2015\Projects\HLib\HLib.Booru\HLib.Booru.csproj;neutral
+C:\Users\彼岸\Documents\Visual Studio 2015\Projects\HLib\HLib.Test\HLib.Test.csproj;neutral
+C:\Users\彼岸\Documents\Visual Studio 2015\Projects\HLib\HLib\HLib.csproj;neutral
+C:\Users\彼岸\Documents\Visual Studio 2015\Projects\HLib\HLib\HLib.csproj;neutral
