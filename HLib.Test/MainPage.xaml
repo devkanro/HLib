@@ -5,19 +5,29 @@
     xmlns:local="using:HLib.Test"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:booru="using:HLib.Booru.Controls"
-    mc:Ignorable="d" Loaded="Page_Loaded">
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
-<ListView x:Name="postList" >
-    <ListView.ItemsPanel>
-        <ItemsPanelTemplate>
-            <local:TestPanel StatckCount="5" ItemsSpacing="2" StatckSpacing="4"/>
-        </ItemsPanelTemplate>
-    </ListView.ItemsPanel>
-</ListView>
-        
-        <Pivot></Pivot>
-        
+    xmlns:mvvm="using:HLib.Mvvm"
+    xmlns:data="using:HLib.Data"
+    xmlns:con="using:HLib.Controls"
+    mc:Ignorable="d"
+    Loaded="Page_Loaded"
+    >
+    <Grid Background="White">
+        <!--<ListView x:Name="postList" ScrollViewer.HorizontalScrollMode="Disabled" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollMode="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto">
+            <ListView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <con:VirtualizingPanel StackCount="2" StackSpacing="5" ItemsSpacing="5" Orientation="Vertical"></con:VirtualizingPanel>
+                </ItemsPanelTemplate>
+            </ListView.ItemsPanel>
+        </ListView>
+        <Button VerticalAlignment="Top" Content="Load" Click="Button_Click"></Button>-->
+        <ListView x:Name="postList">
+            <ListView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <con:VirtualizingPanel StackCount="2"/>
+                </ItemsPanelTemplate>
+            </ListView.ItemsPanel>
+        </ListView>
+        <con:AdvancedImage/>
+        <Button x:Name="button" HorizontalAlignment="Right" VerticalAlignment="Bottom" Content="虛擬化第一個" Click="Button_Click"></Button>
     </Grid>
 </Page>

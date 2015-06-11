@@ -1,8 +1,0 @@
-<XamlCompilerSaveState>
-  <ReferenceAssemblyList>
-  </ReferenceAssemblyList>
-  <XamlSourceFileDataList>
-    <XamlSourceFileData XamlFileName="App.xaml" XamlFileTimeAtLastCompileInTicks="635630092721291359" ClassFullName="HLib.Test.App" />
-    <XamlSourceFileData XamlFileName="MainPage.xaml" XamlFileTimeAtLastCompileInTicks="635631656266951833" ClassFullName="HLib.Test.MainPage" />
-  </XamlSourceFileDataList>
-</XamlCompilerSaveState>
